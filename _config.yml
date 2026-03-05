@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Hyunjae Ra"
-description              : 
+description              : "B.S. student at Sungkyunkwan Univ."
 repository               : "rahyunjae/rahyunjae.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -23,7 +23,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Hyunjae Ra"
   avatar           : "images/hyunjae.jpg"
-  bio              : "B.S. student at Sungkyunkwan Univ."
+  bio              : #"B.S. student at Sungkyunkwan Univ."
   location         : "Seoul, Korea"
   employer         :
   pubmed           : 
@@ -43,7 +43,7 @@ author:
   instagram        :
   impactstory      : # e.g., "https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : # e.g., "hyunjae-ra-371791338/
+  linkedin         : "hyunjae-ra-371791338/"
   dblp             : # e.g., "https://dblp.org/pid/xx/xxxx.html"
   orcid            : # e.g., "https://orcid.org/xxxx"
   pinterest        :
