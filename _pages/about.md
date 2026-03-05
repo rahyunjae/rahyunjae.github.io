@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I’m a four-year B.S. students at Sungkyunkwan University, advised by [Prof. Sungeun Hong](https://www.csehong.com/) in the [AI and Media Lab](https://aim.skku.edu/home). I’m interested in Efficient Model Learning, Model Merging, Multimodal Learning
+I’m a four-year B.S. students at Sungkyunkwan University, advised by [Prof. Sungeun Hong](https://www.csehong.com/) in the [AI and Media Lab](https://aim.skku.edu/home). I’m interested in Efficient Model Learning, Model Merging, Multimodal Learning. I’m currently enrolled in the B.S.–M.S. integrated program at Sungkyunkwan University.
 
 
 # 🔥 News
