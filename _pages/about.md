@@ -21,7 +21,7 @@ I’m a four-year B.S. students at Sungkyunkwan University, advised by [Prof. Su
 
 
 # 🔥 News
-- 2026.2: &nbsp;🎉🎉 I was selected to receive the [IPIU 2026 Best Poster Presentation Award](http://www.ipiu.or.kr/)
+- 2026.2: &nbsp;🎉🎉 I was selected to receive the [**IPIU 2026 Best Poster Presentation Award**](http://www.ipiu.or.kr/)
 
 # 📝 Publications 
 [Domestic]
@@ -36,15 +36,16 @@ I’m a four-year B.S. students at Sungkyunkwan University, advised by [Prof. Su
   The Korean Institute of Broadcast and Media Engineers(KIBME) Summer Conference (2025. 6)
 
 # 🎖 Honors and Awards
-- *2026.02* [Best Poster Presentation Award] | IPIU 2026
-- *2026.01* [Encouragement Award] | Seoul AI Living Lab Project
-- *2025.10* [Grand Prize (1rd place)] | 2025 SKKU AI Hackathon
-- *2024.12* [Silver Prize (3rd place)] | 2024 SKKU Capstone Design Competition & ComEdunion
-- *2024.10* [Silver Prize (3rd place)] | 2024 SKKU AI Hackathon
+
+- *2026.02* Best Poster Presentation Award | IPIU 2026
+- *2026.01* Encouragement Award | Seoul AI Living Lab Project
+- *2025.10* Grand Prize (1rd place) | 2025 SKKU AI Hackathon
+- *2024.12* Silver Prize (3rd place) | 2024 SKKU Capstone Design Competition & ComEdunion
+- *2024.10* Silver Prize (3rd place) | 2024 SKKU AI Hackathon
 
 # 📖 Educations
 - *2023.03 - present*, Sungkyunkwan University, B.S. Student, Department of Computer Education 
 
 # 💻 Internships
-- *2025.09 - present*, Artificial Intelligence and Media Lab @ [Sungkyunkwan Univ](https://aim.skku.edu/home)
-- *2024.07 - 2025.8*, Multimedia Computing Systems Laboratory Lab @ [Sungkyunkwan Univ](http://mcsl.skku.edu/)
+- *2025.09 - present*, [Artificial Intelligence and Media Lab](https://aim.skku.edu/home) @ Sungkyunkwan Univ
+- *2024.07 - 2025.8*, [Multimedia Computing Systems Laboratory Lab](http://mcsl.skku.edu/) @ Sungkyunkwan Univ
