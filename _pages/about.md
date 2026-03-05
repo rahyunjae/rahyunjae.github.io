@@ -24,6 +24,7 @@ I’m a four-year B.S. students at Sungkyunkwan University, advised by [Prof. Su
 - 2026.2: &nbsp;🎉🎉 I was selected to receive the [**IPIU 2026 Best Poster Presentation Award**](http://www.ipiu.or.kr/)
 
 # 📝 Publications 
+*Denotes equal contribution
 **Domestic**
 - **Comparison of VGGT and SfM in Generating Initial Points for 3D Gaussian Splatting**  
   Reagan Koo\*, Jun-Hyeong Park, **Hyunjae Ra**, Eun-Seok Ryu
