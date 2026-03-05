@@ -25,6 +25,7 @@ I’m a four-year B.S. students at Sungkyunkwan University, advised by [Prof. Su
 
 # 📝 Publications 
 *Denotes equal contribution
+
 **Domestic**
 - **Comparison of VGGT and SfM in Generating Initial Points for 3D Gaussian Splatting**  
   Reagan Koo\*, Jun-Hyeong Park, **Hyunjae Ra**, Eun-Seok Ryu
