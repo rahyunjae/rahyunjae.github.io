@@ -27,7 +27,7 @@ author:
   location         : "Seoul, Korea"
   employer         :
   pubmed           : 
-  googlescholar    : "https://scholar.google.com/citations?user=XXXXXXX"
+  googlescholar    : # "https://scholar.google.com/citations?user=XXXXXXX"
   email            : "rahyun111@g.skku.edu"
   researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
   uri              :
