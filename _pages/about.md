@@ -21,10 +21,18 @@ I’m a four-year B.S. students at Sungkyunkwan University, advised by [Prof. Su
 
 
 # 🔥 News
+- 2026.6: &nbsp;🎉🎉 Our poster was accepted to [**RespMultimodal 2026**](https://respmultimodal2026.github.io/), a [**KDD 2026 Workshop**](https://kdd2026.kdd.org/workshops/).
+- 2026.5: &nbsp;🎉🎉 Awarded the Sungkyunkwan University Graduate School Scholarship Type 1 — a full-tuition scholarship.
 - 2026.2: &nbsp;🎉🎉 I was selected to receive the [**IPIU 2026 Best Poster Presentation Award**](http://www.ipiu.or.kr/)
 
 # 📝 Publications 
 *Denotes equal contribution
+**International**
+- **Where to Adapt for MLLM Merging? A Module-Level Analysis**
+  **Hyunjae Ra\***,  Aecheon Jung, Sungeun Hong
+  
+  RespMultimodal 2026, KDD 2026 Workshop, (2026. 8)
+  
 
 **Domestic**
 - **Comparison of VGGT and SfM in Generating Initial Points for 3D Gaussian Splatting**  
@@ -43,7 +51,7 @@ I’m a four-year B.S. students at Sungkyunkwan University, advised by [Prof. Su
   The Korean Institute of Broadcast and Media Engineers(KIBME) Summer Conference (2025. 6)
 
 # 🎖 Honors and Awards
-
+- *2026.06* **Graduate School Scholarship Type 1 (Full-tuition Scholarship)** - Sungkyunkwan University
 - *2026.02* **Best Poster Presentation Award** - IPIU 2026
 - *2026.01* Encouragement Award - Seoul AI Living Lab Project
 - *2025.10* **Grand Prize (1rd place)** - 2025 SKKU AI Hackathon
@@ -56,3 +64,6 @@ I’m a four-year B.S. students at Sungkyunkwan University, advised by [Prof. Su
 # 💻 Internships
 - *2025.09 - present*, [Artificial Intelligence and Media Lab](https://aim.skku.edu/home) @ Sungkyunkwan Univ
 - *2024.07 - 2025.8*, [Multimedia Computing Systems Laboratory Lab](http://mcsl.skku.edu/) @ Sungkyunkwan Univ
+
+# 👨‍🏫 Teaching Experience
+- *2026.05–2026.06* Teaching Practicum Student - Computer Education, Hagye Middle School
