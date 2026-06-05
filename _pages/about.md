@@ -30,7 +30,8 @@ I’m a four-year B.S. students at Sungkyunkwan University, advised by [Prof. Su
 
 
 **International**
-- **Where to Adapt for MLLM Merging? A Module-Level Analysis** 
+- **Where to Adapt for MLLM Merging? A Module-Level Analysis**
+  
   **Hyunjae Ra\***,  Aecheon Jung, Sungeun Hong
   
   RespMultimodal 2026, KDD 2026 Workshop, (2026. 8)
