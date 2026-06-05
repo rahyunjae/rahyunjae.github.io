@@ -31,25 +31,21 @@ I’m a four-year B.S. students at Sungkyunkwan University, advised by [Prof. Su
 
 **International**
 - **Where to Adapt for MLLM Merging? A Module-Level Analysis**                   
-   **Hyunjae Ra\***,  Aecheon Jung, Sungeun Hong
-  
+   **Hyunjae Ra\***,  Aecheon Jung, Sungeun Hong                    
   RespMultimodal 2026, KDD 2026 Workshop, (2026. 8)
   
 
 **Domestic**
 - **Comparison of VGGT and SfM in Generating Initial Points for 3D Gaussian Splatting**  
-  Reagan Koo\*, Jun-Hyeong Park, **Hyunjae Ra**, Eun-Seok Ryu
-  
+  Reagan Koo\*, Jun-Hyeong Park, **Hyunjae Ra**, Eun-Seok Ryu                       
   Journal of Broadcasting Engineering (JBE), Letters (2025. 8)
   
 - **Point Cloud Augmentation via 3D Gaussian Splatting and Mesh Reconstruction using NKSR**  
-  **Hyunjae Ra\***, Jun-Hyeong Park, Minsu Park, Eun-Seok Ryu
-  
+  **Hyunjae Ra\***, Jun-Hyeong Park, Minsu Park, Eun-Seok Ryu                       
   The Korean Institute of Broadcast and Media Engineers(KIBME) Summer Conference (2025. 6)
   
 - **LoD Mesh Generation Based on Object Density Using 3D Gaussian Splatting**  
-  Minsu Park\*, Jun-Hyeong Park, **Hyunjae Ra**, Yeong-Gyu Kim, Eun-Seok Ryu
-  
+  Minsu Park\*, Jun-Hyeong Park, **Hyunjae Ra**, Yeong-Gyu Kim, Eun-Seok Ryu                       
   The Korean Institute of Broadcast and Media Engineers(KIBME) Summer Conference (2025. 6)
 
 # 🎖 Honors and Awards
