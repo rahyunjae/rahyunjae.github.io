@@ -21,40 +21,89 @@ I’m a four-year B.S. students at Sungkyunkwan University, advised by [Prof. Su
 
 
 # 🔥 News
+
+<div class="news-timeline" markdown="1">
+
 - 2026.6: &nbsp;🎉🎉 Our poster was accepted to [**RespMultimodal 2026**](https://respmultimodal2026.github.io/), a [**KDD 2026 Workshop**](https://kdd2026.kdd.org/workshops/).
 - 2026.5: &nbsp;🎉🎉 Awarded the Sungkyunkwan University Graduate School Scholarship Type 1 — **a full-tuition scholarship.**
 - 2026.2: &nbsp;🎉🎉 I was selected to receive the [**IPIU 2026 Best Poster Presentation Award**](http://www.ipiu.or.kr/)
+
+</div>
 
 # 📝 Publications 
 *Denotes equal contribution
 
 
 **International**
-- **Where to Adapt for MLLM Merging? A Module-Level Analysis**                   
-   **Hyunjae Ra\***,  Aecheon Jung, Sungeun Hong                                                          
-   KDD Workshop on Responsible Multimodal Foundation Models for Knowledge Discovery **(KDDW 2026)** (2026. 8)
-  
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">KDDW 2026</div><img src='images/publications/1_mllm-merging-module-level.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**Where to Adapt for MLLM Merging? A Module-Level Analysis**
+
+**Hyunjae Ra\***, Aecheon Jung, Sungeun Hong
+
+KDD Workshop on Responsible Multimodal Foundation Models for Knowledge Discovery **(KDDW 2026)** (2026. 8)
+
+</div></div>
+
 
 **Domestic**
-- **Analysis of Model Integration Performance according to Training Scope in Multimodal Large Language Models**                               
-  **Hyunjae Ra\***,  Aecheon Jung, Sungeun Hong                                              
-  The Korean Institute of Broadcast and Media Engineers(KIBME) Summer Conference (2026. 6)
-  
-- **Clustering-Based Task Vector Quantization for Ultra-Low-Bit Model Merging**                                 
-  **Hyunjae Ra\***,  Aecheon Jung, Seunghwan Lee, Sungeun Hong                                  
- Workshop on Image Processing and Image Understanding (IPIU) 2026 (2026. 2) **🔥Outstanding Poster Presentation Awards**
-  
-- **Comparison of VGGT and SfM in Generating Initial Points for 3D Gaussian Splatting**  
-  Reagan Koo\*, Jun-Hyeong Park, **Hyunjae Ra**, Eun-Seok Ryu                       
-  Journal of Broadcasting Engineering (JBE), Letters (2025. 8)
-  
-- **Point Cloud Augmentation via 3D Gaussian Splatting and Mesh Reconstruction using NKSR**  
-  **Hyunjae Ra\***, Jun-Hyeong Park, Minsu Park, Eun-Seok Ryu                       
-  The Korean Institute of Broadcast and Media Engineers(KIBME) Summer Conference (2025. 6)
-  
-- **LoD Mesh Generation Based on Object Density Using 3D Gaussian Splatting**  
-  Minsu Park\*, Jun-Hyeong Park, **Hyunjae Ra**, Yeong-Gyu Kim, Eun-Seok Ryu                       
-  The Korean Institute of Broadcast and Media Engineers(KIBME) Summer Conference (2025. 6)
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">KIBME 2026</div><img src='images/publications/2_model-integration-training-scope.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**Analysis of Model Integration Performance according to Training Scope in Multimodal Large Language Models**
+
+**Hyunjae Ra\***, Aecheon Jung, Sungeun Hong
+
+The Korean Institute of Broadcast and Media Engineers(KIBME) Summer Conference (2026. 6)
+
+</div></div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IPIU 2026</div><img src='images/publications/3_task-vector-quantization.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**Clustering-Based Task Vector Quantization for Ultra-Low-Bit Model Merging**
+
+**Hyunjae Ra\***, Aecheon Jung, Seunghwan Lee, Sungeun Hong
+
+Workshop on Image Processing and Image Understanding (IPIU) 2026 (2026. 2) **🔥Outstanding Poster Presentation Awards**
+
+</div></div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">JBE 2025</div><img src='images/publications/4_vggt-sfm-3dgs.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**Comparison of VGGT and SfM in Generating Initial Points for 3D Gaussian Splatting**
+
+Reagan Koo\*, Jun-Hyeong Park, **Hyunjae Ra**, Eun-Seok Ryu
+
+Journal of Broadcasting Engineering (JBE), Letters (2025. 8)
+
+</div></div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">KIBME 2025</div><img src='images/publications/5_point-cloud-augmentation-nksr.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**Point Cloud Augmentation via 3D Gaussian Splatting and Mesh Reconstruction using NKSR**
+
+**Hyunjae Ra\***, Jun-Hyeong Park, Minsu Park, Eun-Seok Ryu
+
+The Korean Institute of Broadcast and Media Engineers(KIBME) Summer Conference (2025. 6)
+
+</div></div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">KIBME 2025</div><img src='images/publications/6_lod-mesh-generation.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**LoD Mesh Generation Based on Object Density Using 3D Gaussian Splatting**
+
+Minsu Park\*, Jun-Hyeong Park, **Hyunjae Ra**, Yeong-Gyu Kim, Eun-Seok Ryu
+
+The Korean Institute of Broadcast and Media Engineers(KIBME) Summer Conference (2025. 6)
+
+</div></div>
 
 # 🎖 Honors and Awards
 - *2026.06* **Graduate School Scholarship Type 1 (Full-tuition Scholarship)** - Sungkyunkwan University

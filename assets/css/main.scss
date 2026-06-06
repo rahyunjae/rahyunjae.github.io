@@ -98,12 +98,190 @@ h1:before, .anchor:before {
 }
 
 .badge {
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding-left: .7rem;
+    padding-right: .7rem;
     position: absolute;
     margin-top: .5em;
     margin-left: -.5em;
     color: white;
-    background-color: #00369f;
+    background-color: var(--accent);
+    border-radius: 5px;
+    font-weight: 600;
+    letter-spacing: .02em;
+    box-shadow: 0 2px 6px var(--accent-soft);
     font-size: .8em;
+}
+
+/* =========================================================
+   Theme tokens + dark mode + layout refresh
+   ========================================================= */
+:root {
+    --accent: #4f5bd5;
+    --accent-soft: rgba(79, 91, 213, .18);
+    --bg: #ffffff;
+    --surface: #ffffff;
+    --surface-2: #f6f7fb;
+    --text: #3b3e44;
+    --muted: #6b7280;
+    --border: #e8e8ee;
+}
+
+html[data-theme="dark"] {
+    --accent: #8b9bff;
+    --accent-soft: rgba(139, 155, 255, .20);
+    --bg: #0f1117;
+    --surface: #181b23;
+    --surface-2: #1f232d;
+    --text: #c9d1d9;
+    --muted: #9aa4b2;
+    --border: #2a2f3a;
+}
+
+/* ---- dark mode surface overrides ---- */
+html[data-theme="dark"] body {
+    background-color: var(--bg);
+    color: var(--text);
+}
+
+html[data-theme="dark"] .masthead {
+    background-color: var(--surface);
+    border-bottom-color: var(--border);
+}
+
+html[data-theme="dark"] .greedy-nav,
+html[data-theme="dark"] .greedy-nav .hidden-links {
+    background: var(--surface);
+}
+
+html[data-theme="dark"] .greedy-nav a,
+html[data-theme="dark"] .masthead__menu-home-item a {
+    color: var(--muted);
+}
+
+html[data-theme="dark"] .greedy-nav a:hover {
+    color: var(--accent);
+}
+
+html[data-theme="dark"] .page__content,
+html[data-theme="dark"] .sidebar,
+html[data-theme="dark"] .author__name,
+html[data-theme="dark"] .author__bio,
+html[data-theme="dark"] .author__urls.social-icons,
+html[data-theme="dark"] .author__urls.social-icons li {
+    color: var(--text);
+}
+
+html[data-theme="dark"] .page__content a {
+    color: var(--accent);
+}
+
+html[data-theme="dark"] .author__urls.social-icons {
+    background: transparent;
+}
+
+html[data-theme="dark"] .author__urls.social-icons:after {
+    border-color: var(--surface) transparent;
+}
+
+html[data-theme="dark"] code,
+html[data-theme="dark"] pre,
+html[data-theme="dark"] .highlight {
+    background: var(--surface-2);
+    color: var(--text);
+}
+
+html[data-theme="dark"] .paper-box-image img {
+    box-shadow: 0 4px 18px rgba(0, 0, 0, .6);
+}
+
+/* ---- theme toggle button ---- */
+.masthead__inner-wrap {
+    position: relative;
+}
+
+.theme-toggle {
+    position: absolute;
+    top: 50%;
+    right: 1em;
+    transform: translateY(-50%);
+    width: 38px;
+    height: 38px;
+    padding: 0;
+    border: 1px solid var(--border);
+    border-radius: 50%;
+    background: var(--surface);
+    color: var(--text);
+    cursor: pointer;
+    font-size: 1.05em;
+    line-height: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 30;
+    transition: transform .18s ease, box-shadow .18s ease, background .18s ease;
+}
+
+.theme-toggle:hover {
+    transform: translateY(-50%) scale(1.1);
+    box-shadow: 0 3px 12px var(--accent-soft);
+}
+
+/* ---- accented section headers ---- */
+.page__content h1 {
+    margin-top: 1.7em;
+    padding-bottom: .28em;
+    border-bottom: 1px solid var(--border);
+    position: relative;
+}
+
+.page__content h1::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    width: 2.1em;
+    height: 3px;
+    border-radius: 3px;
+    background: var(--accent);
+}
+
+/* ---- paper cards ---- */
+.paper-box {
+    border-bottom-color: var(--border);
+}
+
+.paper-box-image img {
+    border-radius: 8px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, .14);
+    transition: transform .2s ease, box-shadow .2s ease;
+}
+
+.paper-box:hover .paper-box-image img {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 22px rgba(0, 0, 0, .2);
+}
+
+/* ---- news as a vertical timeline ---- */
+.news-timeline ul {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 1.4em;
+    border-left: 2px solid var(--border);
+}
+
+.news-timeline li {
+    position: relative;
+    padding-bottom: .55em;
+}
+
+.news-timeline li::before {
+    content: "";
+    position: absolute;
+    left: calc(-1.4em - 5px);
+    top: .5em;
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background: var(--accent);
+    box-shadow: 0 0 0 3px var(--accent-soft);
 }
