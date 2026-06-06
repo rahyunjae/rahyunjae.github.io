@@ -70,7 +70,7 @@ The Korean Institute of Broadcast and Media Engineers(KIBME) Summer Conference (
 
 **Hyunjae Ra\***, Aecheon Jung, Seunghwan Lee, Sungeun Hong
 
-Workshop on Image Processing and Image Understanding (IPIU) 2026 (2026. 2)
+Workshop on Image Processing and Image Understanding (IPIU) 2026 (2026. 2)           
 <span class="award-badge">🔥 Outstanding Poster Presentation Award</span>
 
 </div></div>
