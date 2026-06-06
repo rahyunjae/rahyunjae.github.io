@@ -388,6 +388,9 @@ html[data-theme="dark"] .award-badge {
 .card-list li {
     position: relative;
     list-style: none;
+    display: flex;
+    align-items: baseline;
+    gap: 1em;
     margin: 0 0 .7em;
     padding: .8em 1.1em;
     background: var(--surface-2);
@@ -404,20 +407,45 @@ html[data-theme="dark"] .award-badge {
     border-left-color: var(--accent);
 }
 
+/* fixed-width date column so every entry's text starts at the same point */
 .card-list li em {
-    display: inline-block;
-    margin-right: .55em;
-    padding: .08em .55em;
+    flex: 0 0 8.5em;
     font-style: normal;
-    font-size: .82em;
+    font-size: .9em;
     font-weight: 700;
-    letter-spacing: .02em;
+    letter-spacing: .01em;
     color: var(--accent);
-    background: var(--accent-soft);
-    border-radius: 5px;
-    white-space: nowrap;
+}
+
+@media (max-width: 480px) {
+    .card-list li {
+        flex-direction: column;
+        gap: .15em;
+    }
+    .card-list li em {
+        flex-basis: auto;
+    }
 }
 
 html[data-theme="dark"] .card-list li {
     box-shadow: 0 1px 4px rgba(0, 0, 0, .4);
+}
+
+/* ---- intro / about-me card ---- */
+.intro-card {
+    background: var(--surface-2);
+    border: 1px solid var(--border);
+    border-left: 4px solid var(--accent);
+    border-radius: 12px;
+    padding: 1.1em 1.4em;
+    margin: 0 0 1.3em;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, .07);
+}
+
+.intro-card p:last-child {
+    margin-bottom: 0;
+}
+
+html[data-theme="dark"] .intro-card {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, .4);
 }

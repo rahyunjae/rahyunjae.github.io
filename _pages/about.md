@@ -17,18 +17,22 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
+<div class="intro-card" markdown="1">
+
 I’m a fourth-year B.S. student at Sungkyunkwan University, advised by [Prof. Sungeun Hong](https://www.csehong.com/) in the [AI and Media Lab](https://aim.skku.edu/home), where I am also enrolled in the B.S.–M.S. integrated program. My research interests lie in **Efficient Model Learning**, **Model Merging**, and **Multimodal Learning**.
 
 I’m especially excited about building large multimodal models that are efficient to train and adapt, and about understanding how independently trained models can be combined into a single, more capable one. More broadly, my goal is to develop methods that make powerful AI models more practical and accessible under limited compute. Feel free to reach out if you’d like to chat about research or potential collaboration.
 
+</div>
+
 
 # 🔥 News
 
-<div class="news-timeline" markdown="1">
+<div class="card-list" markdown="1">
 
-- 2026.6: &nbsp;🎉🎉 Our poster was accepted to [**RespMultimodal 2026**](https://respmultimodal2026.github.io/), a [**KDD 2026 Workshop**](https://kdd2026.kdd.org/workshops/).
-- 2026.5: &nbsp;🎉🎉 Awarded the Sungkyunkwan University Graduate School Scholarship Type 1 — **a full-tuition scholarship.**
-- 2026.2: &nbsp;🎉🎉 I was selected to receive the [**IPIU 2026 Best Poster Presentation Award**](http://www.ipiu.or.kr/)
+- *2026.06* 🎉🎉 Our poster was accepted to [**RespMultimodal 2026**](https://respmultimodal2026.github.io/), a [**KDD 2026 Workshop**](https://kdd2026.kdd.org/workshops/).
+- *2026.05* 🎉🎉 Awarded the Sungkyunkwan University Graduate School Scholarship Type 1 — **a full-tuition scholarship.**
+- *2026.02* 🎉🎉 I was selected to receive the [**IPIU 2026 Best Poster Presentation Award**](http://www.ipiu.or.kr/)
 
 </div>
 
@@ -125,7 +129,7 @@ The Korean Institute of Broadcast and Media Engineers(KIBME) Summer Conference (
 
 <div class="card-list" markdown="1">
 
-- *2023.03 - present*, Sungkyunkwan University, B.S. Student, Department of Computer Education 
+- *2023.03 - present* Sungkyunkwan University, B.S. Student, Department of Computer Education
 
 </div>
 
@@ -133,8 +137,8 @@ The Korean Institute of Broadcast and Media Engineers(KIBME) Summer Conference (
 
 <div class="card-list" markdown="1">
 
-- *2025.09 - present*, [Artificial Intelligence and Media Lab](https://aim.skku.edu/home) @ Sungkyunkwan Univ
-- *2024.07 - 2025.8*, [Multimedia Computing Systems Laboratory Lab](http://mcsl.skku.edu/) @ Sungkyunkwan Univ
+- *2025.09 - present* [Artificial Intelligence and Media Lab](https://aim.skku.edu/home) @ Sungkyunkwan Univ
+- *2024.07 - 2025.08* [Multimedia Computing Systems Laboratory Lab](http://mcsl.skku.edu/) @ Sungkyunkwan Univ
 
 </div>
 
