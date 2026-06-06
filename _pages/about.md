@@ -145,7 +145,7 @@ Development and Commercialization of a Multimodal AI Digital Therapeutic for Dep
 
 <div class="card-list" markdown="1">
 
-- *2023.03 - present* Sungkyunkwan University, B.S. Student, Department of Computer Education
+- *2023.03 - present* Sungkyunkwan University, B.S. Student, Department of Computer Education <img src='images/publications/skku.jpg' class="lab-logo" alt="Sungkyunkwan University">
 
 </div>
 
@@ -162,6 +162,6 @@ Development and Commercialization of a Multimodal AI Digital Therapeutic for Dep
 
 <div class="card-list" markdown="1">
 
-- *2026.05–2026.06* Teaching Practicum Student - Computer Education, Hagye Middle School
+- *2026.05–2026.06* Teaching Practicum Student - Computer Education, Hagye Middle School <img src='images/publications/hagye.png' class="lab-logo" alt="Hagye Middle School">
 
 </div>
