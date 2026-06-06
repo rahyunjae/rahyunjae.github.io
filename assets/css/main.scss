@@ -377,3 +377,45 @@ html[data-theme="dark"] .award-badge {
     margin-top: .2em;
     margin-bottom: .2em;
 }
+
+/* ---- boxed entry cards (awards / education / internships / teaching) ---- */
+.card-list ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.card-list li {
+    position: relative;
+    margin: 0 0 .6em;
+    padding: .7em 1em;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-left: 4px solid var(--accent);
+    border-radius: 8px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .05);
+    transition: transform .15s ease, box-shadow .15s ease;
+}
+
+.card-list li:hover {
+    transform: translateX(3px);
+    box-shadow: 0 3px 12px rgba(0, 0, 0, .1);
+}
+
+.card-list li em {
+    display: inline-block;
+    margin-right: .55em;
+    padding: .08em .55em;
+    font-style: normal;
+    font-size: .82em;
+    font-weight: 700;
+    letter-spacing: .02em;
+    color: var(--accent);
+    background: var(--accent-soft);
+    border-radius: 5px;
+    white-space: nowrap;
+}
+
+html[data-theme="dark"] .card-list li {
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .4);
+}

@@ -109,6 +109,9 @@ The Korean Institute of Broadcast and Media Engineers(KIBME) Summer Conference (
 </div></div>
 
 # 🎖 Honors and Awards
+
+<div class="card-list" markdown="1">
+
 - *2026.06* **Graduate School Scholarship Type 1 (Full-tuition Scholarship)** - Sungkyunkwan University
 - *2026.02* **Best Poster Presentation Award** - IPIU 2026
 - *2026.01* Encouragement Award - Seoul AI Living Lab Project
@@ -116,12 +119,29 @@ The Korean Institute of Broadcast and Media Engineers(KIBME) Summer Conference (
 - *2024.12* Silver Prize (3rd place) - 2024 SKKU Capstone Design Competition & ComEdunion
 - *2024.10* Silver Prize (3rd place) - 2024 SKKU AI Hackathon
 
+</div>
+
 # 📖 Educations
+
+<div class="card-list" markdown="1">
+
 - *2023.03 - present*, Sungkyunkwan University, B.S. Student, Department of Computer Education 
 
+</div>
+
 # 💻 Internships
+
+<div class="card-list" markdown="1">
+
 - *2025.09 - present*, [Artificial Intelligence and Media Lab](https://aim.skku.edu/home) @ Sungkyunkwan Univ
 - *2024.07 - 2025.8*, [Multimedia Computing Systems Laboratory Lab](http://mcsl.skku.edu/) @ Sungkyunkwan Univ
 
+</div>
+
 # 👨‍🏫 Teaching Experience
+
+<div class="card-list" markdown="1">
+
 - *2026.05–2026.06* Teaching Practicum Student - Computer Education, Hagye Middle School
+
+</div>
