@@ -36,14 +36,13 @@ I’m a four-year B.S. students at Sungkyunkwan University, advised by [Prof. Su
   
 
 **Domestic**
-- **Analysis of Model Integration Performance according to Training Scope in Multimodal Large Language Models**
+- **Analysis of Model Integration Performance according to Training Scope in Multimodal Large Language Models**                               
   **Hyunjae Ra\***,  Aecheon Jung, Sungeun Hong                                              
   The Korean Institute of Broadcast and Media Engineers(KIBME) Summer Conference (2026. 6)
   
-- **Clustering-Based Task Vector Quantization for Ultra-Low-Bit Model Merging**
+- **Clustering-Based Task Vector Quantization for Ultra-Low-Bit Model Merging**                                 
   **Hyunjae Ra\***,  Aecheon Jung, Seunghwan Lee, Sungeun Hong                                  
- Workshop on Image Processing and Image Understanding (IPIU) 2026 (2026. 2)
-  **🔥Outstanding Poster Presentation Awards**
+ Workshop on Image Processing and Image Understanding (IPIU) 2026 (2026. 2) **🔥Outstanding Poster Presentation Awards**
   
 - **Comparison of VGGT and SfM in Generating Initial Points for 3D Gaussian Splatting**  
   Reagan Koo\*, Jun-Hyeong Park, **Hyunjae Ra**, Eun-Seok Ryu                       
