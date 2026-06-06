@@ -346,3 +346,14 @@ html[data-theme="dark"] .paper-box-image img {
 html[data-theme="dark"] .award-badge {
     color: #2a1c00;
 }
+
+/* ---- more compact publication cards ---- */
+.paper-box {
+    padding-top: 1.1em;
+    padding-bottom: 1.1em;
+}
+
+.paper-box .paper-box-image,
+.paper-box .paper-box-image img {
+    max-width: 300px;
+}
