@@ -387,19 +387,21 @@ html[data-theme="dark"] .award-badge {
 
 .card-list li {
     position: relative;
-    margin: 0 0 .6em;
-    padding: .7em 1em;
-    background: var(--surface);
+    list-style: none;
+    margin: 0 0 .7em;
+    padding: .8em 1.1em;
+    background: var(--surface-2);
     border: 1px solid var(--border);
     border-left: 4px solid var(--accent);
-    border-radius: 8px;
-    box-shadow: 0 1px 4px rgba(0, 0, 0, .05);
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, .07);
     transition: transform .15s ease, box-shadow .15s ease;
 }
 
 .card-list li:hover {
-    transform: translateX(3px);
-    box-shadow: 0 3px 12px rgba(0, 0, 0, .1);
+    transform: translateX(4px);
+    box-shadow: 0 5px 16px rgba(0, 0, 0, .12);
+    border-left-color: var(--accent);
 }
 
 .card-list li em {
