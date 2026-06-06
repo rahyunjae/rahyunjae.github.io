@@ -22,7 +22,7 @@ I’m a four-year B.S. students at Sungkyunkwan University, advised by [Prof. Su
 
 # 🔥 News
 - 2026.6: &nbsp;🎉🎉 Our poster was accepted to [**RespMultimodal 2026**](https://respmultimodal2026.github.io/), a [**KDD 2026 Workshop**](https://kdd2026.kdd.org/workshops/).
-- 2026.5: &nbsp;🎉🎉 Awarded the Sungkyunkwan University Graduate School Scholarship Type 1 — a full-tuition scholarship.
+- 2026.5: &nbsp;🎉🎉 Awarded the Sungkyunkwan University Graduate School Scholarship Type 1 — **a full-tuition scholarship.**
 - 2026.2: &nbsp;🎉🎉 I was selected to receive the [**IPIU 2026 Best Poster Presentation Award**](http://www.ipiu.or.kr/)
 
 # 📝 Publications 
