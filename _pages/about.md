@@ -31,11 +31,20 @@ I’m a four-year B.S. students at Sungkyunkwan University, advised by [Prof. Su
 
 **International**
 - **Where to Adapt for MLLM Merging? A Module-Level Analysis**                   
-   **Hyunjae Ra\***,  Aecheon Jung, Sungeun Hong                    
+   **Hyunjae Ra\***,  Aecheon Jung, Sungeun Hong                                                          
    KDD Workshop on Responsible Multimodal Foundation Models for Knowledge Discovery **(KDDW 2026)** (2026. 8)
   
 
 **Domestic**
+- **Analysis of Model Integration Performance according to Training Scope in Multimodal Large Language Models**
+  **Hyunjae Ra\***,  Aecheon Jung, Sungeun Hong                                              
+  The Korean Institute of Broadcast and Media Engineers(KIBME) Summer Conference (2026. 6)
+  
+- **Clustering-Based Task Vector Quantization for Ultra-Low-Bit Model Merging**
+  **Hyunjae Ra\***,  Aecheon Jung, Seunghwan Lee, Sungeun Hong                                  
+ Workshop on Image Processing and Image Understanding (IPIU) 2026 (2026. 2)
+  **🔥Outstanding Poster Presentation Awards**
+  
 - **Comparison of VGGT and SfM in Generating Initial Points for 3D Gaussian Splatting**  
   Reagan Koo\*, Jun-Hyeong Park, **Hyunjae Ra**, Eun-Seok Ryu                       
   Journal of Broadcasting Engineering (JBE), Letters (2025. 8)
