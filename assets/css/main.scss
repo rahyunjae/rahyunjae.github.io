@@ -449,3 +449,16 @@ html[data-theme="dark"] .card-list li {
 html[data-theme="dark"] .intro-card {
     box-shadow: 0 2px 8px rgba(0, 0, 0, .4);
 }
+
+/* ---- lab logos (internships) ---- */
+.lab-logo {
+    height: 30px;
+    width: auto;
+    margin-left: .6em;
+    padding: 3px 8px;
+    background: #fff;
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    vertical-align: middle;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .08);
+}

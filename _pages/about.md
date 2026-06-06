@@ -153,8 +153,8 @@ Development and Commercialization of a Multimodal AI Digital Therapeutic for Dep
 
 <div class="card-list" markdown="1">
 
-- *2025.09 - present* [Artificial Intelligence and Media Lab](https://aim.skku.edu/home) @ Sungkyunkwan Univ
-- *2024.07 - 2025.08* [Multimedia Computing Systems Laboratory Lab](http://mcsl.skku.edu/) @ Sungkyunkwan Univ
+- *2025.09 - present* [Artificial Intelligence and Media Lab](https://aim.skku.edu/home) @ Sungkyunkwan Univ <img src='images/publications/aimlab.png' class="lab-logo" alt="AIM Lab">
+- *2024.07 - 2025.08* [Intelligent Multimedia Computing Laboratory (IMCLab)](https://imclab.skku.edu/) @ Sungkyunkwan Univ <img src='images/publications/imcllab.png' class="lab-logo" alt="IMCLab">
 
 </div>
 
