@@ -17,7 +17,9 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I’m a four-year B.S. students at Sungkyunkwan University, advised by [Prof. Sungeun Hong](https://www.csehong.com/) in the [AI and Media Lab](https://aim.skku.edu/home). I’m interested in Efficient Model Learning, Model Merging, Multimodal Learning. I’m currently enrolled in the B.S.–M.S. integrated program at Sungkyunkwan University.
+I’m a fourth-year B.S. student at Sungkyunkwan University, advised by [Prof. Sungeun Hong](https://www.csehong.com/) in the [AI and Media Lab](https://aim.skku.edu/home), where I am also enrolled in the B.S.–M.S. integrated program. My research interests lie in **Efficient Model Learning**, **Model Merging**, and **Multimodal Learning**.
+
+I’m especially excited about building large multimodal models that are efficient to train and adapt, and about understanding how independently trained models can be combined into a single, more capable one. More broadly, my goal is to develop methods that make powerful AI models more practical and accessible under limited compute. Feel free to reach out if you’d like to chat about research or potential collaboration.
 
 
 # 🔥 News
@@ -34,7 +36,7 @@ I’m a four-year B.S. students at Sungkyunkwan University, advised by [Prof. Su
 *Denotes equal contribution
 
 
-**International**
+<div class="pub-section"><span class="pub-section__label">International</span></div>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">KDDW 2026</div><img src='images/publications/1_mllm-merging-module-level.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -48,7 +50,7 @@ KDD Workshop on Responsible Multimodal Foundation Models for Knowledge Discovery
 </div></div>
 
 
-**Domestic**
+<div class="pub-section"><span class="pub-section__label">Domestic</span></div>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">KIBME 2026</div><img src='images/publications/2_model-integration-training-scope.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -68,7 +70,8 @@ The Korean Institute of Broadcast and Media Engineers(KIBME) Summer Conference (
 
 **Hyunjae Ra\***, Aecheon Jung, Seunghwan Lee, Sungeun Hong
 
-Workshop on Image Processing and Image Understanding (IPIU) 2026 (2026. 2) **🔥Outstanding Poster Presentation Awards**
+Workshop on Image Processing and Image Understanding (IPIU) 2026 (2026. 2)
+<span class="award-badge">🔥 Outstanding Poster Presentation Award</span>
 
 </div></div>
 
