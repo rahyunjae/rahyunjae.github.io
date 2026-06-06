@@ -112,6 +112,22 @@ The Korean Institute of Broadcast and Media Engineers(KIBME) Summer Conference (
 
 </div></div>
 
+# 💡 Project
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">MOTIE · KEIT</div><img src='images/publications/anxiety.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**Multimodal Framework for Depression Diagnosis**
+
+Development and Commercialization of a Multimodal AI Digital Therapeutic for Depression and Anxiety<br>
+우울·불안장애 진단 및 중재적 치료를 위한 멀티모달 인공지능(AI) 디지털 의료기기 개발 및 사업화 추진
+
+만성질환 및 암 환자를 포함한 우울·불안 고위험군을 대상으로 생체신호(EEG·PPG), 표정, 음성, 문진 데이터를 통합한 멀티모달 AI 기반 디지털 진단·치료 의료 기술 개발
+
+*Funded by Ministry of Trade, Industry and Energy (MOTIE) / Korea Planning & Evaluation Institute of Industrial Technology (KEIT)* (2025.04 ~ 2026.12)
+
+</div></div>
+
 # 🎖 Honors and Awards
 
 <div class="card-list" markdown="1">
