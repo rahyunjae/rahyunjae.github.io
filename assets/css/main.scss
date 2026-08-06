@@ -402,8 +402,8 @@ html[data-theme="dark"] .award-badge {
 }
 
 .card-list li:hover {
-    transform: translateX(4px);
-    box-shadow: 0 5px 16px rgba(0, 0, 0, .12);
+    transform: translateY(-2px);
+    box-shadow: 0 5px 16px rgba(0, 0, 0, .1);
     border-left-color: var(--accent);
 }
 
@@ -448,6 +448,120 @@ html[data-theme="dark"] .card-list li {
 
 html[data-theme="dark"] .intro-card {
     box-shadow: 0 2px 8px rgba(0, 0, 0, .4);
+}
+
+/* ---- education cards (degree + lab affiliation) ---- */
+.edu-list {
+    display: flex;
+    flex-direction: column;
+    gap: .9em;
+    margin-bottom: 1.2em;
+}
+
+.edu-card {
+    display: flex;
+    align-items: flex-start;
+    gap: 1em;
+    padding: 1em 1.25em;
+    background: var(--surface-2);
+    border: 1px solid var(--border);
+    border-left: 4px solid var(--accent);
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, .07);
+    transition: transform .15s ease, box-shadow .15s ease;
+}
+
+.edu-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, .12);
+}
+
+.edu-logo {
+    width: 46px;
+    height: 46px;
+    object-fit: contain;
+    background: #fff;
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 4px;
+    flex-shrink: 0;
+    margin-top: .15em;
+}
+
+.edu-main {
+    flex: 1;
+    min-width: 0;
+}
+
+.edu-top {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: .8em;
+    flex-wrap: wrap;
+}
+
+.edu-degree {
+    font-weight: 700;
+    font-size: 1.06em;
+}
+
+.edu-date {
+    font-size: .82em;
+    font-weight: 700;
+    color: var(--accent);
+    background: var(--accent-soft);
+    padding: .18em .7em;
+    border-radius: 999px;
+    white-space: nowrap;
+}
+
+.edu-school {
+    font-size: .92em;
+    color: var(--muted);
+    margin-top: .1em;
+}
+
+.edu-sub {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: .35em;
+    font-size: .9em;
+    margin-top: .45em;
+}
+
+.edu-lab-logo {
+    height: 20px;
+    width: auto;
+    background: #fff;
+    border: 1px solid var(--border);
+    border-radius: 5px;
+    padding: 2px 5px;
+    vertical-align: middle;
+}
+
+.edu-sub-date {
+    color: var(--muted);
+    font-size: .92em;
+    margin-left: .15em;
+}
+
+html[data-theme="dark"] .edu-card {
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .4);
+}
+
+@media (max-width: 480px) {
+    .edu-card {
+        padding: .9em 1em;
+    }
+    .edu-top {
+        flex-direction: column;
+        gap: .25em;
+    }
+    .edu-date {
+        align-self: flex-start;
+    }
 }
 
 /* ---- lab logos (internships) ---- */
