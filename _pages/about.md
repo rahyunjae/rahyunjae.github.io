@@ -19,7 +19,7 @@ redirect_from:
 
 <div class="intro-card" markdown="1">
 
-I’m a fourth-year B.S. student at Sungkyunkwan University, advised by [Prof. Sungeun Hong](https://www.csehong.com/) in the [AI and Media Lab](https://aim.skku.edu/home), where I am also enrolled in the B.S.–M.S. integrated program. My research interests lie in **Efficient Model Learning**, **Model Merging**, and **Multimodal Learning**.
+I’m an M.S. student in the Department of Artificial Intelligence at Sungkyunkwan University, advised by [Prof. Sungeun Hong](https://www.csehong.com/) in the [AI and Media Lab](https://aim.skku.edu/home). My research interests lie in **Efficient Model Learning**, **Model Merging**, and **Multimodal Learning**.
 
 I’m especially excited about building large multimodal models that are efficient to train and adapt, and about understanding how independently trained models can be combined into a single, more capable one. More broadly, my goal is to develop methods that make powerful AI models more practical and accessible under limited compute. Feel free to reach out if you’d like to chat about research or potential collaboration.
 
