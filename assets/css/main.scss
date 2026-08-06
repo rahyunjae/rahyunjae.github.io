@@ -465,6 +465,87 @@ html[data-theme="dark"] .intro-card {
     box-shadow: 0 2px 8px rgba(0, 0, 0, .4);
 }
 
+/* ---- publications: compact list (jonbarron-style density) ---- */
+.paper-box {
+    padding-top: .8em;
+    padding-bottom: .8em;
+    align-items: center;
+}
+
+@media (min-width: 500px) {
+    .paper-box .paper-box-image {
+        flex: 0 0 172px;
+        min-width: 0;
+        max-width: 172px;
+    }
+
+    .paper-box .paper-box-text {
+        flex: 1;
+        max-width: none;
+        padding-left: 1.5em;
+    }
+}
+
+.paper-box .paper-box-image img {
+    max-width: 172px;
+    border-radius: 6px;
+    border: 1px solid var(--border);
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .06);
+}
+
+.paper-box:hover .paper-box-image img {
+    transform: none;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, .12);
+}
+
+.paper-box-text p {
+    margin: .12em 0;
+    font-size: .92em;
+    line-height: 1.45;
+}
+
+.paper-box-text p:first-child {
+    font-size: 1.03em;
+    font-weight: 700;
+    line-height: 1.35;
+    margin-bottom: .15em;
+}
+
+.paper-box-text p:nth-of-type(2) {
+    font-size: .9em;
+}
+
+.paper-box-text p:nth-of-type(n+3) {
+    font-size: .86em;
+    color: var(--muted);
+}
+
+.badge {
+    font-size: .72em;
+    margin-top: .4em;
+    margin-left: -.4em;
+    padding: .12em .65em;
+    border-radius: 999px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .12);
+}
+
+.award-badge {
+    font-size: .78em;
+    padding: .22em .6em;
+    margin-top: .3em;
+    box-shadow: 0 1px 5px rgba(240, 180, 40, .35);
+}
+
+.pub-section {
+    margin: 1.4em 0 .1em;
+}
+
+.pub-section__label {
+    font-size: .92em;
+    padding: .28em 1em;
+    letter-spacing: .07em;
+}
+
 /* ---- education cards (degree + lab affiliation) ---- */
 .edu-list {
     display: flex;
