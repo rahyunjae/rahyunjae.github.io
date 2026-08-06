@@ -36,9 +36,7 @@ I’m especially excited about building large multimodal models that are efficie
 
 </div>
 
-# 📝 Publications 
-*Denotes equal contribution
-
+# 📝 Publications
 
 <div class="pub-section"><span class="pub-section__label">International</span></div>
 
@@ -47,7 +45,7 @@ I’m especially excited about building large multimodal models that are efficie
 
 **Where to Adapt for MLLM Merging? A Module-Level Analysis**
 
-**Hyunjae Ra\***, Aecheon Jung, Sungeun Hong
+**Hyunjae Ra**, Aecheon Jung, Sungeun Hong
 
 KDD Workshop on Responsible Multimodal Foundation Models for Knowledge Discovery **(KDDW 2026)** (2026. 8)
 
@@ -61,7 +59,7 @@ KDD Workshop on Responsible Multimodal Foundation Models for Knowledge Discovery
 
 **Analysis of Model Integration Performance according to Training Scope in Multimodal Large Language Models**
 
-**Hyunjae Ra\***, Aecheon Jung, Sungeun Hong
+**Hyunjae Ra**, Aecheon Jung, Sungeun Hong
 
 The Korean Institute of Broadcast and Media Engineers(KIBME) Summer Conference (2026. 6)
 
@@ -72,7 +70,7 @@ The Korean Institute of Broadcast and Media Engineers(KIBME) Summer Conference (
 
 **Clustering-Based Task Vector Quantization for Ultra-Low-Bit Model Merging**
 
-**Hyunjae Ra\***, Aecheon Jung, Seunghwan Lee, Sungeun Hong
+**Hyunjae Ra**, Aecheon Jung, Seunghwan Lee, Sungeun Hong
 
 Workshop on Image Processing and Image Understanding (IPIU) 2026 (2026. 2)           
 <span class="award-badge">🔥 Outstanding Poster Presentation Award</span>
@@ -84,7 +82,7 @@ Workshop on Image Processing and Image Understanding (IPIU) 2026 (2026. 2)
 
 **Comparison of VGGT and SfM in Generating Initial Points for 3D Gaussian Splatting**
 
-Reagan Koo\*, Jun-Hyeong Park, **Hyunjae Ra**, Eun-Seok Ryu
+Reagan Koo, Jun-Hyeong Park, **Hyunjae Ra**, Eun-Seok Ryu
 
 Journal of Broadcasting Engineering (JBE), Letters (2025. 8)
 
@@ -95,7 +93,7 @@ Journal of Broadcasting Engineering (JBE), Letters (2025. 8)
 
 **Point Cloud Augmentation via 3D Gaussian Splatting and Mesh Reconstruction using NKSR**
 
-**Hyunjae Ra\***, Jun-Hyeong Park, Minsu Park, Eun-Seok Ryu
+**Hyunjae Ra**, Jun-Hyeong Park, Minsu Park, Eun-Seok Ryu
 
 The Korean Institute of Broadcast and Media Engineers(KIBME) Summer Conference (2025. 6)
 
@@ -106,7 +104,7 @@ The Korean Institute of Broadcast and Media Engineers(KIBME) Summer Conference (
 
 **LoD Mesh Generation Based on Object Density Using 3D Gaussian Splatting**
 
-Minsu Park\*, Jun-Hyeong Park, **Hyunjae Ra**, Yeong-Gyu Kim, Eun-Seok Ryu
+Minsu Park, Jun-Hyeong Park, **Hyunjae Ra**, Yeong-Gyu Kim, Eun-Seok Ryu
 
 The Korean Institute of Broadcast and Media Engineers(KIBME) Summer Conference (2025. 6)
 
