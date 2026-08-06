@@ -31,7 +31,7 @@ I’m especially excited about building large multimodal models that are efficie
 <div class="card-list" markdown="1">
 
 - *2026.06* 🎉🎉 Our poster was accepted to [**RespMultimodal 2026**](https://respmultimodal2026.github.io/), a [**KDD 2026 Workshop**](https://kdd2026.kdd.org/workshops/).
-- *2026.05* 🎉🎉 Awarded the Sungkyunkwan University Graduate School Scholarship Type 1 — **a full-tuition scholarship.**
+- *2026.05* 🎉🎉 Awarded the Sungkyunkwan University Graduate School Scholarship Type 1 — **a full-tuition scholarship (worth ≈ $23,000).**
 - *2026.02* 🎉🎉 I was selected to receive the [**IPIU 2026 Best Poster Presentation Award**](http://www.ipiu.or.kr/)
 
 </div>
@@ -132,7 +132,7 @@ Development and Commercialization of a Multimodal AI Digital Therapeutic for Dep
 
 <div class="card-list" markdown="1">
 
-- *2026.06* **Graduate School Scholarship Type 1 (Full-tuition Scholarship)** - Sungkyunkwan University
+- *2026.06* **Graduate School Scholarship Type 1 (Full-tuition Scholarship, worth ≈ $23,000)** - Sungkyunkwan University
 - *2026.02* **Best Poster Presentation Award** - IPIU 2026
 - *2026.01* Encouragement Award - Seoul AI Living Lab Project
 - *2025.10* **Grand Prize (1rd place)** - 2025 SKKU AI Hackathon
