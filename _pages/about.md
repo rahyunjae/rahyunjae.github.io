@@ -145,7 +145,8 @@ Development and Commercialization of a Multimodal AI Digital Therapeutic for Dep
 
 <div class="card-list" markdown="1">
 
-- *2023.03 - present* Sungkyunkwan University, B.S. Student, Department of Computer Education <img src='images/publications/skku.jpg' class="lab-logo" alt="Sungkyunkwan University">
+- *2026.09 - present* Sungkyunkwan University, M.S. Student, Department of Artificial Intelligence (Advisor: [Prof. Sungeun Hong](https://www.csehong.com/), [AI and Media Lab](https://aim.skku.edu/home)) <img src='images/publications/skku.jpg' class="lab-logo" alt="Sungkyunkwan University">
+- *2023.03 - 2026.09* Sungkyunkwan University, B.S. Student, Department of Computer Education — GPA 4.14/4.5 (Major 4.26/4.5), Early graduation in 7 semesters <img src='images/publications/skku.jpg' class="lab-logo" alt="Sungkyunkwan University">
 
 </div>
 
