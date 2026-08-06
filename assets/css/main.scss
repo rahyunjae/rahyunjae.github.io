@@ -103,10 +103,11 @@ h1:before, .anchor:before {
     position: absolute;
     margin-top: .5em;
     margin-left: -.5em;
-    color: white;
-    background-color: var(--accent);
-    border-radius: 5px;
-    font-weight: 600;
+    color: var(--accent-ink);
+    background-color: var(--accent-pastel);
+    border: 1px solid var(--accent-soft);
+    border-radius: 6px;
+    font-weight: 700;
     letter-spacing: .02em;
     box-shadow: 0 2px 6px var(--accent-soft);
     font-size: .8em;
@@ -116,25 +117,29 @@ h1:before, .anchor:before {
    Theme tokens + dark mode + layout refresh
    ========================================================= */
 :root {
-    --accent: #4f5bd5;
-    --accent-soft: rgba(79, 91, 213, .18);
+    --accent: #7fae5c;
+    --accent-soft: rgba(141, 198, 96, .20);
+    --accent-pastel: #ecf5df;
+    --accent-ink: #4d7a31;
     --bg: #ffffff;
     --surface: #ffffff;
-    --surface-2: #f6f7fb;
+    --surface-2: #f7faf2;
     --text: #3b3e44;
     --muted: #6b7280;
-    --border: #e8e8ee;
+    --border: #e2ead6;
 }
 
 html[data-theme="dark"] {
-    --accent: #8b9bff;
-    --accent-soft: rgba(139, 155, 255, .20);
-    --bg: #0f1117;
-    --surface: #181b23;
-    --surface-2: #1f232d;
-    --text: #c9d1d9;
-    --muted: #9aa4b2;
-    --border: #2a2f3a;
+    --accent: #a8d18c;
+    --accent-soft: rgba(168, 209, 140, .20);
+    --accent-pastel: #28331e;
+    --accent-ink: #c2e2a4;
+    --bg: #0f1310;
+    --surface: #171c16;
+    --surface-2: #1d2419;
+    --text: #c9d1c9;
+    --muted: #9aa89a;
+    --border: #2b3526;
 }
 
 /* ---- dark mode surface overrides ---- */
@@ -226,6 +231,15 @@ html[data-theme="dark"] .paper-box-image img {
     box-shadow: 0 3px 12px var(--accent-soft);
 }
 
+/* ---- pastel green links (light mode; dark mode overridden below) ---- */
+.page__content a {
+    color: var(--accent-ink);
+}
+
+.page__content a:hover {
+    color: var(--accent);
+}
+
 /* ---- accented section headers ---- */
 .page__content h1 {
     margin-top: 1.7em;
@@ -312,12 +326,13 @@ html[data-theme="dark"] .paper-box-image img {
 .pub-section__label {
     display: inline-block;
     padding: .32em 1.15em;
-    font-size: 1.1em;
+    font-size: 1.05em;
     font-weight: 800;
     letter-spacing: .09em;
     text-transform: uppercase;
-    color: #fff;
-    background: var(--accent);
+    color: var(--accent-ink);
+    background: var(--accent-pastel);
+    border: 1px solid var(--accent-soft);
     border-radius: 999px;
 }
 
@@ -414,7 +429,7 @@ html[data-theme="dark"] .award-badge {
     font-size: .9em;
     font-weight: 700;
     letter-spacing: .01em;
-    color: var(--accent);
+    color: var(--accent-ink);
 }
 
 @media (max-width: 480px) {
@@ -492,8 +507,9 @@ html[data-theme="dark"] .intro-card {
 .edu-date {
     font-size: .82em;
     font-weight: 700;
-    color: var(--accent);
-    background: var(--accent-soft);
+    color: var(--accent-ink);
+    background: var(--accent-pastel);
+    border: 1px solid var(--accent-soft);
     padding: .18em .7em;
     border-radius: 999px;
     white-space: nowrap;
