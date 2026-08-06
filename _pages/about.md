@@ -146,37 +146,28 @@ Development and Commercialization of a Multimodal AI Digital Therapeutic for Dep
 <div class="edu-list">
 
 <div class="edu-card">
-  <img src="images/publications/skku.jpg" class="edu-logo" alt="Sungkyunkwan University">
-  <div class="edu-main">
-    <div class="edu-top">
-      <span class="edu-degree">M.S. in Artificial Intelligence</span>
-      <span class="edu-date">2026.09 – Present</span>
-    </div>
-    <div class="edu-school">Sungkyunkwan University (SKKU)</div>
-    <div class="edu-sub">
-      <img src="images/publications/aimlab.png" class="edu-lab-logo" alt="AIM Lab">
-      <a href="https://aim.skku.edu/home">Artificial Intelligence and Media Lab</a>&nbsp;·&nbsp;Advisor: <a href="https://www.csehong.com/">Prof.&nbsp;Sungeun&nbsp;Hong</a>
-    </div>
+  <div class="edu-top">
+    <span class="edu-degree">M.S. in Artificial Intelligence</span>
+    <span class="edu-date">2026.09 – Present</span>
+  </div>
+  <div class="edu-school">Sungkyunkwan University (SKKU) <img src="images/publications/skku.jpg" class="edu-lab-logo" alt="Sungkyunkwan University"></div>
+  <div class="edu-sub">
+    <a href="https://aim.skku.edu/home">Artificial Intelligence and Media Lab</a>&nbsp;·&nbsp;Advisor: <a href="https://www.csehong.com/">Prof.&nbsp;Sungeun&nbsp;Hong</a> <img src="images/publications/aimlab.png" class="edu-lab-logo" alt="AIM Lab">
   </div>
 </div>
 
 <div class="edu-card">
-  <img src="images/publications/skku.jpg" class="edu-logo" alt="Sungkyunkwan University">
-  <div class="edu-main">
-    <div class="edu-top">
-      <span class="edu-degree">B.S. in Computer Education</span>
-      <span class="edu-date">2023.03 – 2026.09</span>
-    </div>
-    <div class="edu-school">Sungkyunkwan University (SKKU)</div>
-    <div class="edu-sub">GPA 4.14 / 4.5 (Major 4.26 / 4.5)&nbsp;·&nbsp;Early graduation in 7 semesters</div>
-    <div class="edu-sub">
-      <img src="images/publications/aimlab.png" class="edu-lab-logo" alt="AIM Lab">
-      Undergraduate Research Intern, <a href="https://aim.skku.edu/home">AI and Media Lab</a> <span class="edu-sub-date">2025.09 – 2026.08</span>
-    </div>
-    <div class="edu-sub">
-      <img src="images/publications/imcllab.png" class="edu-lab-logo" alt="IMCLab">
-      Undergraduate Research Intern, <a href="https://imclab.skku.edu/">Intelligent Multimedia Computing Lab (IMCLab)</a> <span class="edu-sub-date">2024.07 – 2025.08</span>
-    </div>
+  <div class="edu-top">
+    <span class="edu-degree">B.S. in Computer Education</span>
+    <span class="edu-date">2023.03 – 2026.09</span>
+  </div>
+  <div class="edu-school">Sungkyunkwan University (SKKU) <img src="images/publications/skku.jpg" class="edu-lab-logo" alt="Sungkyunkwan University"></div>
+  <div class="edu-sub">GPA 4.14 / 4.5 (Major 4.26 / 4.5)&nbsp;·&nbsp;Early graduation in 7 semesters</div>
+  <div class="edu-sub">
+    Undergraduate Research Intern, <a href="https://aim.skku.edu/home">AI and Media Lab</a> <span class="edu-sub-date">2025.09 – 2026.08</span> <img src="images/publications/aimlab.png" class="edu-lab-logo" alt="AIM Lab">
+  </div>
+  <div class="edu-sub">
+    Undergraduate Research Intern, <a href="https://imclab.skku.edu/">Intelligent Multimedia Computing Lab (IMCLab)</a> <span class="edu-sub-date">2024.07 – 2025.08</span> <img src="images/publications/imcllab.png" class="edu-lab-logo" alt="IMCLab">
   </div>
 </div>
 

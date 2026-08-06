@@ -460,37 +460,20 @@ html[data-theme="dark"] .intro-card {
 
 .edu-card {
     display: flex;
-    align-items: flex-start;
-    gap: 1em;
-    padding: 1em 1.25em;
+    flex-direction: column;
+    gap: .25em;
+    padding: .9em 1.15em;
     background: var(--surface-2);
     border: 1px solid var(--border);
     border-left: 4px solid var(--accent);
-    border-radius: 12px;
+    border-radius: 10px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, .07);
     transition: transform .15s ease, box-shadow .15s ease;
 }
 
 .edu-card:hover {
     transform: translateY(-2px);
-    box-shadow: 0 6px 18px rgba(0, 0, 0, .12);
-}
-
-.edu-logo {
-    width: 46px;
-    height: 46px;
-    object-fit: contain;
-    background: #fff;
-    border: 1px solid var(--border);
-    border-radius: 10px;
-    padding: 4px;
-    flex-shrink: 0;
-    margin-top: .15em;
-}
-
-.edu-main {
-    flex: 1;
-    min-width: 0;
+    box-shadow: 0 5px 16px rgba(0, 0, 0, .1);
 }
 
 .edu-top {
@@ -519,26 +502,23 @@ html[data-theme="dark"] .intro-card {
 .edu-school {
     font-size: .92em;
     color: var(--muted);
-    margin-top: .1em;
 }
 
 .edu-sub {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: .35em;
     font-size: .9em;
-    margin-top: .45em;
+    margin-top: .15em;
 }
 
 .edu-lab-logo {
-    height: 20px;
+    height: 21px;
     width: auto;
+    margin-left: .45em;
+    padding: 2px 6px;
     background: #fff;
     border: 1px solid var(--border);
     border-radius: 5px;
-    padding: 2px 5px;
     vertical-align: middle;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .08);
 }
 
 .edu-sub-date {
@@ -564,9 +544,9 @@ html[data-theme="dark"] .edu-card {
     }
 }
 
-/* ---- lab logos (internships) ---- */
+/* ---- lab logos (teaching etc.) ---- */
 .lab-logo {
-    height: 30px;
+    height: 24px;
     width: auto;
     margin-left: .6em;
     padding: 3px 8px;
