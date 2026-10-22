@@ -187,12 +187,6 @@ html{scroll-padding-top:118px}.page-wrap{width:calc(100% - 38px)}
 #publications > .pub-list > .publication:last-child{padding-bottom:0}
 #publications > .pub-list > .publication + .publication{border-top:1px solid var(--line)}
 
-/* Balance the desktop profile across photo, identity, and contact links. */
-@media(min-width:1000px){
-  .hero-copy{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:28px;align-items:end}
-  .hero-copy .socials{flex-direction:column;gap:8px;margin:0;padding-left:24px;border-left:1px solid var(--line)}
-  .hero-copy .social-link{min-width:196px;padding:9px 12px}
-}
 /* A quiet lift on pointer hover, with equivalent keyboard feedback. */
 .publication{position:relative;isolation:isolate;transition:transform .2s ease}
 .publication::before{content:'';position:absolute;inset:-8px -12px;z-index:-1;border:1px solid var(--panel-border);border-radius:12px;background:var(--soft-hover);box-shadow:0 7px 22px rgba(42,79,130,.12);opacity:0;pointer-events:none;transition:opacity .2s ease}
@@ -214,3 +208,29 @@ html{scroll-padding-top:118px}.page-wrap{width:calc(100% - 38px)}
 
 .teaching + .teaching{margin-top:16px;padding-top:16px;border-top:1px solid var(--line)}
 .teaching-period{font-size:11px;color:var(--muted);white-space:nowrap}
+
+/* Keep the full introduction beside the portrait, as one compact profile. */
+@media(min-width:801px){
+  .hero{grid-template-columns:240px minmax(0,1fr);column-gap:30px;padding-top:22px}
+  .hero-copy{align-self:start}
+  .hero .portrait{align-self:center}
+  .hero .intro{margin-top:15px;font-size:13px;line-height:1.75}
+  .hero .intro h2{font-size:17px;margin-bottom:6px}
+  .hero .intro p+p{margin-top:7px}
+  .hero .socials{margin-top:14px}
+}
+@media(min-width:601px) and (max-width:800px){
+  .hero{grid-template-columns:150px minmax(0,1fr)}
+  .hero-copy{display:contents}
+  .hero-title{grid-column:2;grid-row:1}
+  .hero .portrait{grid-column:1;grid-row:1}
+  .hero .intro{grid-column:1/-1;grid-row:2}
+  .hero .socials{grid-column:1/-1;grid-row:3}
+  .research-topics{grid-row:4}
+}
+@media(max-width:600px){
+  .hero .intro{grid-row:2}
+  .hero .socials{grid-row:3;margin-top:12px}
+}
+.publication-year{font-size:13px;font-weight:700;letter-spacing:1px;color:var(--accent);margin-bottom:15px}
+.domestic .publication-year{margin:0}
