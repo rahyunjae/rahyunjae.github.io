@@ -189,17 +189,14 @@ html{scroll-padding-top:118px}.page-wrap{width:calc(100% - 38px)}
 
 /* A quiet lift on pointer hover, with equivalent keyboard feedback. */
 .publication{position:relative;isolation:isolate;transition:transform .2s ease}
-.publication::before{content:'';position:absolute;inset:-8px -12px;z-index:-1;border:1px solid var(--panel-border);border-radius:12px;background:var(--soft-hover);box-shadow:0 7px 22px rgba(42,79,130,.12);opacity:0;pointer-events:none;transition:opacity .2s ease}
+.publication::before{content:'';position:absolute;inset:-8px -12px;z-index:-1;border:1px solid var(--panel-border);border-radius:12px;background:var(--soft-gradient);box-shadow:0 2px 8px rgba(42,79,130,.04);opacity:0;pointer-events:none;transition:opacity .2s ease}
 .publication .paper-visual img{transition:transform .2s ease}
 .publication h3,.publication h3 a{transition:color .2s ease}
-.publication:focus-within{transform:translateY(-2px)}
-.publication:focus-within::before{opacity:1}
-.publication:focus-within h3,.publication:focus-within h3 a{color:var(--accent)}
+.publication:focus-within{transform:translateY(-1px)}
+.publication:focus-within::before{opacity:.45}
 @media(any-hover:hover){
-  .publication:hover{transform:translateY(-2px)}
-  .publication:hover::before{opacity:1}
-  .publication:hover h3,.publication:hover h3 a{color:var(--accent)}
-  .publication:hover .paper-visual img{transform:scale(1.025)}
+  .publication:hover{transform:translateY(-1px)}
+  .publication:hover::before{opacity:.45}
 }
 @media(prefers-reduced-motion:reduce){
   .publication,.publication .paper-visual img{transform:none!important;transition:none!important}
