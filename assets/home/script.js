@@ -6,7 +6,7 @@ const update = () => {
   const dark = root.dataset.theme === 'dark';
   toggle.setAttribute('aria-pressed', String(dark));
   toggle.setAttribute('aria-label', 'Switch to ' + (dark ? 'light' : 'dark') + ' theme');
-  document.querySelector('meta[name="theme-color"]').content = dark ? '#101925' : '#edf4ff';
+  document.querySelector('meta[name="theme-color"]').content = dark ? '#101925' : '#0759da';
 };
 toggle.hidden = false;
 update();
