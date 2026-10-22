@@ -15,6 +15,21 @@ toggle.addEventListener('click', () => {
   try { localStorage.setItem('hyunjae-theme', root.dataset.theme); } catch (_) {}
   update();
 });
+const newsButton = document.querySelector('.news-toggle');
+const olderNews = [...document.querySelectorAll('#news-list > li')].slice(3);
+if (newsButton && olderNews.length) {
+  const setNewsExpanded = expanded => {
+    olderNews.forEach(item => { item.hidden = !expanded; });
+    newsButton.setAttribute('aria-expanded', String(expanded));
+    newsButton.textContent = expanded ? 'Show less updates ↑' : 'Show more updates (' + olderNews.length + ' more) ↓';
+  };
+  setNewsExpanded(false);
+  newsButton.hidden = false;
+  newsButton.addEventListener('click', () => {
+    setNewsExpanded(newsButton.getAttribute('aria-expanded') !== 'true');
+  });
+}
+
 const links = [...document.querySelectorAll('nav a')];
 if ('IntersectionObserver' in window) {
   const observer = new IntersectionObserver(entries => {
