@@ -17,7 +17,7 @@ strong{font-weight:650}::selection{background:#cce1ff;color:#173860}[hidden]{dis
 .site-header{position:sticky;top:0;z-index:20;padding-top:3px;border-bottom:1px solid var(--line);background:var(--header);backdrop-filter:blur(16px)}
 .nav-wrap{width:min(1120px,calc(100% - 64px));margin:auto;min-height:73px;display:flex;align-items:center;gap:28px}
 .brand{display:flex;gap:12px;align-items:center;color:var(--ink);font-size:14px;font-weight:750;white-space:nowrap}.brand:hover{text-decoration:none}
-.brand-mark{display:grid;place-items:center;width:34px;height:34px;border-radius:10px;overflow:hidden;flex-shrink:0}
+
 .nav-wrap nav{margin-left:auto;display:flex;gap:22px;align-items:center}
 .nav-wrap nav a{font-size:13px;color:var(--muted);position:relative;white-space:nowrap}
 .nav-wrap nav a:hover,.nav-wrap nav a[aria-current]{color:var(--accent);text-decoration:none}
@@ -84,7 +84,7 @@ strong{font-weight:650}::selection{background:#cce1ff;color:#173860}[hidden]{dis
 .project h3{margin:0 0 5px}
 .project .project-translation{font-size:11px;line-height:1.6}
 .project .project-summary{margin-top:8px}
-.brand-mark img{width:100%;height:100%;object-fit:cover}
+
 @media(max-width:600px){.project-meta{gap:8px}.project-period{font-size:11px}}
 .experience-grid{display:grid;grid-template-columns:1fr 1fr;gap:44px}
 .subheading{font-size:11px;text-transform:uppercase;letter-spacing:1.5px;color:var(--muted);margin-bottom:22px}
@@ -111,7 +111,7 @@ strong{font-weight:650}::selection{background:#cce1ff;color:#173860}[hidden]{dis
 .copy-status{font-size:12px;color:var(--muted);margin-top:10px;min-height:22px}
 @media(min-width:1450px){.hero{padding-top:36px}}
 @media(max-width:800px){
-.nav-wrap{gap:17px}.nav-wrap nav{gap:16px}.brand>span:last-child{display:none}
+.nav-wrap{gap:17px}.nav-wrap nav{gap:16px}.brand>span:last-child{display:inline}
 .hero{column-gap:25px;grid-template-columns:150px minmax(0,1fr);padding-top:26px}.hero h1{font-size:38px}.intro{font-size:14px}
 .publication,.project{grid-template-columns:185px minmax(0,1fr);gap:21px}
 .honors-list li{grid-template-columns:72px 1fr;gap:12px}.honors-list .institution{grid-column:2;text-align:left;margin-top:-9px}.experience-grid{gap:28px}
@@ -119,7 +119,7 @@ strong{font-weight:650}::selection{background:#cce1ff;color:#173860}[hidden]{dis
 @media(max-width:600px){
 html{scroll-padding-top:118px}.page-wrap{width:calc(100% - 38px)}
 .nav-wrap{width:calc(100% - 38px);min-height:95px;display:grid;grid-template-columns:1fr auto;gap:0;padding-top:10px}
-.brand>span:last-child{display:inline}.brand-mark{width:29px;height:29px;border-radius:8px}
+.brand>span:last-child{display:inline}
 .nav-wrap nav{grid-row:2;grid-column:1/-1;justify-content:space-between;margin:0;gap:8px;padding:10px 0 11px}
 .nav-wrap nav a{font-size:11px}.nav-wrap nav a[aria-current]:after{bottom:-11px}
 .theme-toggle{grid-column:2;grid-row:1;width:30px;height:30px}
@@ -195,17 +195,17 @@ html{scroll-padding-top:118px}.page-wrap{width:calc(100% - 38px)}
 }
 /* A quiet lift on pointer hover, with equivalent keyboard feedback. */
 .publication{position:relative;isolation:isolate;transition:transform .2s ease}
-.publication::before{content:'';position:absolute;inset:-8px -12px;z-index:-1;border:1px solid var(--panel-border);border-radius:12px;background:var(--soft-gradient);box-shadow:0 6px 18px rgba(42,79,130,.075);opacity:0;pointer-events:none;transition:opacity .2s ease}
+.publication::before{content:'';position:absolute;inset:-8px -12px;z-index:-1;border:1px solid var(--panel-border);border-radius:12px;background:var(--soft-hover);box-shadow:0 7px 22px rgba(42,79,130,.12);opacity:0;pointer-events:none;transition:opacity .2s ease}
 .publication .paper-visual img{transition:transform .2s ease}
 .publication h3,.publication h3 a{transition:color .2s ease}
 .publication:focus-within{transform:translateY(-2px)}
 .publication:focus-within::before{opacity:1}
 .publication:focus-within h3,.publication:focus-within h3 a{color:var(--accent)}
-@media(hover:hover) and (pointer:fine){
+@media(any-hover:hover){
   .publication:hover{transform:translateY(-2px)}
   .publication:hover::before{opacity:1}
   .publication:hover h3,.publication:hover h3 a{color:var(--accent)}
-  .publication .paper-visual:hover img{transform:scale(1.025)}
+  .publication:hover .paper-visual img{transform:scale(1.025)}
 }
 @media(prefers-reduced-motion:reduce){
   .publication,.publication .paper-visual img{transform:none!important;transition:none!important}
