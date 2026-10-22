@@ -186,3 +186,31 @@ html{scroll-padding-top:118px}.page-wrap{width:calc(100% - 38px)}
 #publications > .pub-list > .publication:first-child{padding-top:0}
 #publications > .pub-list > .publication:last-child{padding-bottom:0}
 #publications > .pub-list > .publication + .publication{border-top:1px solid var(--line)}
+
+/* Balance the desktop profile across photo, identity, and contact links. */
+@media(min-width:1000px){
+  .hero-copy{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:28px;align-items:end}
+  .hero-copy .socials{flex-direction:column;gap:8px;margin:0;padding-left:24px;border-left:1px solid var(--line)}
+  .hero-copy .social-link{min-width:196px;padding:9px 12px}
+}
+/* A quiet lift on pointer hover, with equivalent keyboard feedback. */
+.publication{position:relative;isolation:isolate;transition:transform .2s ease}
+.publication::before{content:'';position:absolute;inset:-8px -12px;z-index:-1;border:1px solid var(--panel-border);border-radius:12px;background:var(--soft-gradient);box-shadow:0 6px 18px rgba(42,79,130,.075);opacity:0;pointer-events:none;transition:opacity .2s ease}
+.publication .paper-visual img{transition:transform .2s ease}
+.publication h3,.publication h3 a{transition:color .2s ease}
+.publication:focus-within{transform:translateY(-2px)}
+.publication:focus-within::before{opacity:1}
+.publication:focus-within h3,.publication:focus-within h3 a{color:var(--accent)}
+@media(hover:hover) and (pointer:fine){
+  .publication:hover{transform:translateY(-2px)}
+  .publication:hover::before{opacity:1}
+  .publication:hover h3,.publication:hover h3 a{color:var(--accent)}
+  .publication .paper-visual:hover img{transform:scale(1.025)}
+}
+@media(prefers-reduced-motion:reduce){
+  .publication,.publication .paper-visual img{transform:none!important;transition:none!important}
+  .publication::before,.publication h3,.publication h3 a{transition:none!important}
+}
+
+.teaching + .teaching{margin-top:16px;padding-top:16px;border-top:1px solid var(--line)}
+.teaching-period{font-size:11px;color:var(--muted);white-space:nowrap}
