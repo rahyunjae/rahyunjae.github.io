@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Hyunjae Ra"
-description              : "M.S. student at Sungkyunkwan Univ."
+description              : "Multimodal AI research · M.S. student at Sungkyunkwan University"
 repository               : "rahyunjae/rahyunjae.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -22,7 +22,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 # Site Author
 author:
   name             : "Hyunjae Ra"
-  avatar           : "images/hyunjae2.jpg"
+  avatar           : "images/hyunjae-portrait.jpg"
   bio              : #"B.S. student at Sungkyunkwan Univ."
   location         : "Seoul, Korea"
   employer         :
